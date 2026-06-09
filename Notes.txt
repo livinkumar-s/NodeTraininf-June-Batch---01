@@ -1,0 +1,28 @@
+Node 
+------
+>> JavaScript runtime environment. Built on Google's v8 engine. allows JS code to run outside the browser.
+
+v8 Engine--> Reads JS code, Compiles it to machine code and executes it.
+
+Global Object:
+---------------
+global 
+module
+__dirname
+__filename
+exports 
+require
+
+NPM --> Node Package Manager 
+-----------------------------
+>> It comes with node itself
+--> npm install packageName
+
+To open terminal --> ctrl + `
+To execute JS file in node --> node fileName.js
+
+Event Looping
+-------------
+>> NodeJS runs on a single thread but it can handle many operations efficiently.
+
+CallStack queue -- callback queue
