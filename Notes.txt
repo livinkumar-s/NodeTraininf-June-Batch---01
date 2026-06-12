@@ -26,3 +26,15 @@ Event Looping
 >> NodeJS runs on a single thread but it can handle many operations efficiently.
 
 CallStack queue -- callback queue
+
+Synchronous Programming
+------------------------
+>> JS defaultly executes the code line by line.
+
+Asynchronous Programming 
+-------------------------
+Call back functions---> function we pass as an argument.
+
+using this we are handling async operations.. like redaFile.... in sync manner..
+
+you may face "CALLBACK HELL"
