@@ -38,3 +38,5 @@ Call back functions---> function we pass as an argument.
 using this we are handling async operations.. like redaFile.... in sync manner..
 
 you may face "CALLBACK HELL"
+
+Promise --> itis an object that represents eventual completion or failure of an asynchronous operation.
