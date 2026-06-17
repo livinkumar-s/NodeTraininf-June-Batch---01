@@ -39,4 +39,63 @@ using this we are handling async operations.. like redaFile.... in sync manner..
 
 you may face "CALLBACK HELL"
 
-Promise --> itis an object that represents eventual completion or failure of an asynchronous operation.
+Promise --> it is an object that represents eventual completion or failure of an asynchronous operation.
+
+
+Server and API
+---------------
+Server is a program that listens for request and sends response
+API (Application Progging Interface) is a way for 2 applications to communicate(REST, GraphQL, SOAP)
+
+HTTP --> Hyper Text Transfer Protocol
+-----
+It is a protocol used for communication between client and server
+
+HTTP  Methods 
+--------------
+GET --> Retrive
+POST --> Send Data
+PUT ---> Updating whole record
+PATCH --> small updation
+DELETE --> Deleting a record
+
+Status Code 
+------------
+it shows the status of a request.
+
+2xx --> success
+3xx --> Redirection
+4xx --> Client error (404 Not found)
+5xx --> Server error.
+
+URL 
+-----
+Uniform Resource Locator 
+
+>> address of a resource on the internet.
+
+
+GET www.google.com/animal?cat="mammal"
+
+Host --> google.com
+/animal --> path 
+?cat="mammal" --> Param (?id=1)
+Method --> GET 
+Endpoint --> GET /animal
+Body --> data attached with the req
+
+Headers 
+----------
+These are key-value pairs sent between the client and server.
+
+HOST --> host name
+Content-Type --> Application/Json, text/plain.....
+Authorization --> to send auth credintials....
+
+
+
+REST
+----
+Representational  State Transfer.
+>> style for designing web APIs. (uses HTTP)
+
