@@ -76,6 +76,7 @@ Uniform Resource Locator
 
 
 GET www.google.com/animal?cat="mammal"
+GET www.google.com/deletepost/1
 
 Host --> google.com
 /animal --> path 
@@ -83,6 +84,7 @@ Host --> google.com
 Method --> GET 
 Endpoint --> GET /animal
 Body --> data attached with the req
+
 
 Headers 
 ----------
@@ -99,3 +101,7 @@ REST
 Representational  State Transfer.
 >> style for designing web APIs. (uses HTTP)
 
+
+Middleware 
+------------
+it is a function that executes before reaching the final route.
