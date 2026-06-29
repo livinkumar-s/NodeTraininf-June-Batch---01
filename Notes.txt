@@ -105,3 +105,44 @@ Representational  State Transfer.
 Middleware 
 ------------
 it is a function that executes before reaching the final route.
+
+Database 
+-----------
+>> Collection of data stored in organized way. it is easily accessible.
+
+MongoDB --> NoSQL database 
+>> stores data in form of document(BSON)
+JSON --> JavaScript Object Notation 
+BSON --> Binary JSON.
+
+Database --> collection ---> documents
+
+User --> contact Info(mobile,email) --> {
+    mobile:val,
+    email: val
+}
+
+Mongoose 
+-----------
+it is ODM for mongoDB.
+Object Document Mapping.
+
+Schema --> it defines fields, datatyes, properties....
+
+ methods of mongoose 
+ --------------------------
+ .create() --> insert document.
+ .save()
+ .find() --> multiple documents 
+ .findOne({})
+ .findById(id)
+ .updateOne()
+ .findByIdAndUpdate(id,{
+    updation
+ })
+ .deleteone()
+ .findByIdAndDelete(id)
+
+ Filtering
+ ------------
+ 
