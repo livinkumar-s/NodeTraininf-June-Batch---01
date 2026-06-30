@@ -122,12 +122,15 @@ User --> contact Info(mobile,email) --> {
     email: val
 }
 
+
 Mongoose 
 -----------
 it is ODM for mongoDB.
 Object Document Mapping.
 
+
 Schema --> it defines fields, datatyes, properties....
+Model --> It is the object that provides methods to work with mongoDB.
 
  methods of mongoose 
  --------------------------
@@ -143,6 +146,32 @@ Schema --> it defines fields, datatyes, properties....
  .deleteone()
  .findByIdAndDelete(id)
 
+ Update operators
+ ------------------
+ set --> $set
+ increment --> $inc
+ push --> $push
+ pull --> $pull
+ unset --> $unset (will remove that field)
+
  Filtering
  ------------
- 
+ equal --> {field:value}
+ greater than --> $gt
+ lesser than --> $lt
+ greater than or equal--> $gte
+ lesser than or equal--> $lte
+ in operator --> $in
+ not in operator --> $nin
+ regex --> $regex:pattern
+
+
+ and --> $and:[cond,cond]
+ or --> $or:[cond,cond]
+
+
+
+client (userId, pass) --> server (verifies) 
+
+client(token) --> req to access protected data --> server (res with data)
+client() --> req to access protected data --> server (res err)
